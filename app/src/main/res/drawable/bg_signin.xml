@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid background color -->
+    <solid android:color="#8BC34A" />  <!-- Background color -->
+
+    <!-- Add leaf-shaped cutout -->
+    <corners
+        android:topLeftRadius="100dp" />    <!-- Top left corner radius -->
+           <!-- Top right corner radius -->
+    <!-- Bottom right corner radius -->
+
+
+    <!-- Add leaf veins (optional) -->
+    <item android:id="@+id/leaf_vein_shape">
+        <rotate
+            android:fromDegrees="45"  android:pivotX="50%"  android:pivotY="50%" android:visible="true" />    <!-- Rotation angle of veins (in degrees) -->
+                  <!-- Pivot point X coordinate -->
+                 <!-- Pivot point Y coordinate -->
+                 <!-- Show/hide veins -->
+
+        <shape>
+            <solid android:color="#689F38" />  <!-- Vein color -->
+
+            <!-- Vein path definition -->
+            <path
+                android:fillColor="#689F38"    android:pathData="M0,10 L10,0 L20,10 L10,20 Z"     />    <!-- Vein color -->
+              <!-- Vein shape -->
+
+        </shape>
+    </item>
+
+    </shape>
